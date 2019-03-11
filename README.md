@@ -7,21 +7,9 @@ LedgerSeqTime is a Java app to query Ripple public URL Daemon for Server_Info an
 - After x minutes of polling, local file results are loaded into array and calculates the min, max, avg time of when ledger sequences are incremented over given time.
 
 ## Global Constants in the app:
-- Change the global values below in the code to adjust the output for your needs.
-
-Static file in local system (Windows) to write our output:
-MY_FILE = "C:/myoutput/data.txt"
-
-Polling interval of Ripple Daemon in milliseconds - set to 1 second as default:
-POLL_INTERVAL = 1000; 		
-
-Duration of the polling in milliseconds - set to 3 minutes as default:	 
-SLEEP_DURATION = 180000; 
-
-Public Rippled Server URL:
-RIPPLE_URL = "http://s1.ripple.com:51234";
-
-JSON request (escaped for JAVA formatting):
-JSON_REQUEST = "{ \"method\" : \"server_info\" , \"params\" : [ {} ] }";
-
-
+Change the global values below in the code to adjust the output for your needs.
+- Static file in local system (Windows) to write our output:  MY_FILE = "C:/myoutput/data.txt"
+- Polling interval of Ripple Daemon in milliseconds - set to 1 second as default:  POLL_INTERVAL = 1000
+- Duration of the polling in milliseconds - set to 3 minutes as default:  SLEEP_DURATION = 180000
+- Public Rippled Server URL:  RIPPLE_URL = "http://s1.ripple.com:51234"
+- JSON request (escaped for JAVA formatting):  JSON_REQUEST = "{ \"method\" : \"server_info\" , \"params\" : [ {} ] }"
