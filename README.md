@@ -1,4 +1,4 @@
-# RippleD-LedgerSeqTime
+# RippleD-LedgerSeqTime: 
 LedgerSeqTime is a Java app to query Ripple public URL Daemon for Server_Info and record Sequence &amp; Time historical data.  Although more detailed information on XRP metrics can be found at https://xrpcharts.ripple.com/#/metrics, the purpose of this app is to get familiarity using Ripple Deamon via JAVA as well as understanding/parsin basic method requests and responses.
 
 ## Summary of what the application does:
