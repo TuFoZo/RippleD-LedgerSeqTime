@@ -12,4 +12,4 @@ Change the global values below in the code to adjust the output for your needs.
 - Polling interval of Ripple Daemon in milliseconds - set to 1 second as default:  POLL_INTERVAL = 1000
 - Duration of the polling in milliseconds - set to 3 minutes as default:  SLEEP_DURATION = 180000
 - Public Rippled Server URL:  RIPPLE_URL = "http://s1.ripple.com:51234"
-- JSON request (escaped for JAVA formatting):  JSON_REQUEST = "{ \"method\" : \"server_info\" , \"params\" : [ {} ] }"
+- JSON request for server_info method:  JSON_REQUEST = "{ \"method\" : \"server_info\" , \"params\" : [ {} ] }"
