@@ -81,10 +81,10 @@ public class RippledServerInfo {
         Integer min = Collections.min(lookup.values());
         Integer max = Collections.max(lookup.values());
         System.out.println("-----------------------------");
-        System.out.println("Sample size: " + lookup.size());
-        System.out.println("Min(): " + min);
-        System.out.println("Max(): " + max);
-        System.out.println("Avg(): " + added / lookup.size());
+        System.out.println("Sample size - number of ledgers: " + lookup.size());
+        System.out.println("Min time for ledger validation: " + min);
+        System.out.println("Max time for ledger validation: " + max);
+        System.out.println("Avg time for ledger validation: " + added / lookup.size());
         
 
 	}
