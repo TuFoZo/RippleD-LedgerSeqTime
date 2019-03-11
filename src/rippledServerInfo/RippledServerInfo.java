@@ -91,7 +91,7 @@ public class RippledServerInfo {
 	
 	public static class GetTimeSyncData extends TimerTask {
 	    public void run() {
-			try {
+		    try {
 	            URL url = new URL(RIPPLE_URL);
 	            HttpURLConnection httpConn = (HttpURLConnection)url.openConnection();
 	            httpConn.setConnectTimeout(5000);
