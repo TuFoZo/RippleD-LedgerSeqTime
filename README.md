@@ -3,7 +3,7 @@ LedgerSeqTime is a Java app to query Ripple public URL Daemon for Server_Info an
 
 ## Intro:
 - App makes JSON RPC calls to Ripple public servers' (via server_info method) every x seconds for x minutes of duration.
-- After every request to the Ripple server, response of time & validated_ledger.seq from Ripple daemon is written to a local file.
+- After every request to the Ripple server, response of time & validated_ledger.seq from daemon is written to a local file.
 - After x minutes of polling, local file results are loaded into an array and the min, max, avg time of when ledger sequences are incremented over given time are calculated.
 
 ## Global Constants in the app:
